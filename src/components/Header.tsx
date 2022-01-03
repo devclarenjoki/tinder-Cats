@@ -1,21 +1,23 @@
-import React from 'react';
-import Logo from '../images/tinder.png'
-import { UserIcon } from '@heroicons/react/solid'
-import { AnnotationIcon } from '@heroicons/react/solid'
+import React from "react";
+import "./Header.css";
+import PersonIcon from "@material-ui/icons/Person";
+import ForumIcon from "@material-ui/icons/Forum";
+import IconButton from "@material-ui/core/IconButton";
+import Logo from "../images/tinder.png";
 
 function Header() {
-    return (
-        <div className="flex items-center justify-between z-100 border-b p-20">
-            <UserIcon className="h-5 w-5 text-blue-500"/>
-              <img
-           className="object-contain h-5"
-           src={Logo}
-           alt="tinder logo"
-           />
-           <AnnotationIcon className="h-5 w-5 text-blue-500"/>
-        </div>
-        
-    )
+  return (
+    <div className="header">
+      <IconButton>
+      <PersonIcon fontSize="large" className="header__icon" />
+      </IconButton>
+
+      <img className="header__logo" src={Logo} alt="tinder logo" />
+      <IconButton>
+      <ForumIcon fontSize="large" className="header__icon" />
+      </IconButton>
+    </div>
+  );
 }
 
-export default Header
+export default Header;

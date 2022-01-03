@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link, Routes} from "react-router-dom";
 import Header from './components/Header';
+import TinderCards from './components/TinderCards';
+import Swipe from './components/SwipeButtons';
 import {Home, Product} from './Pages';
+
 
 function App() {
   return (
@@ -19,8 +22,10 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <Header />
 
-      <Header/>
+<TinderCards />
+<Swipe />
     </div>
   );
 }
