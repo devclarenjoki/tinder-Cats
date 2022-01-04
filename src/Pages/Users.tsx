@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-const Home = () => {
+const Users = () => {
   return (
     <section>
-      <h1>Hello Home</h1>
+      <h1>Hello Users</h1>
     </section>
   );
 };
 
-export default Home;
+export default Users;

@@ -1,14 +1,13 @@
-import React from 'react';
-import './App.css';
-import AppRoutes from './Router.js';
-import Header from './components/Header';
-import TinderCards from './components/TinderCards';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import TinderCards from "./components/TinderCards";
+import AppRouter from "./AppRouter";
 
 function App() {
   return (
     <div className="App">
-      <AppRoutes/>
-
+      <AppRouter />
       <Header />
       <TinderCards />
     </div>

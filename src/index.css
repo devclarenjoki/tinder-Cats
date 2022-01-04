@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+.routes{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+  

@@ -19,8 +19,8 @@ function TinderCards() {
         {
           method: "GET",
           headers: {
-            "X-Api-Key": "458b2b50-2bca-436f-b209-95d111fec71b"
-          }
+            "X-Api-Key": "458b2b50-2bca-436f-b209-95d111fec71b",
+          },
         }
       );
 
@@ -133,4 +133,3 @@ function TinderCards() {
 }
 
 export default TinderCards;
-
